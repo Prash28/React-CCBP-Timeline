@@ -14,13 +14,8 @@ import {
 
 const ProjectTimelineCard = props => {
   const {projectDetails} = props
-  const {
-    imageUrl,
-    projectTitle,
-    description,
-    projectUrl,
-    duration,
-  } = projectDetails
+  const {imageUrl, projectTitle, description, projectUrl, duration} =
+    projectDetails
 
   return (
     <ProjectCardContainer>
